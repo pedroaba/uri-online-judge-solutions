@@ -1,10 +1,5 @@
 const readline = require("readline")
 
-function calcValueToPayPerPart(quantityOfParts, partValue) {
-  
-  return (quantityOfParts * partValue).toFixed(2)
-}
-
 const reader = readline.createInterface({
   input: process.stdin,
   output: process.stdout
